@@ -99,6 +99,10 @@ public abstract class FileStoreTestBase {
         }
     }
 
+    function restituisciStringa() {
+    return "";
+}
+
     public String getURI() {
         return hdfsURI;
     }
